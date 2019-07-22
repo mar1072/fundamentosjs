@@ -34,7 +34,7 @@ imprimirNombreEnMayusculas(fernandez)
 // }
 
 // function imprimirNombreYEdad ({nombre, edad}){
-//     //Hola me llamo Mario y tengo 5.000 años
+//   //Hola me llamo Mario y tengo 5.000 años
 //     console.log (`Hola me llamo, ${nombre} y tengo ${edad} años`)
 
 // }
