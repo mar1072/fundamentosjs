@@ -1,12 +1,12 @@
 var mario = {
     nombre: 'Mario',
-    apellido: 'Fernandez',
-    edad: 20
+    apellido: 'Fernandez S',
+    edad: 29
 }
 
-var fernandez = {
-    nombre: 'Enrique',
-    apellido: 'Serrano',
+var ronald = {
+    nombre: 'Ronald',
+    apellido: 'Fernandez S',
     edad: 25
 
 }
@@ -16,7 +16,7 @@ function imprimirNombreEnMayusculas({nombre}){
 }
 
 imprimirNombreEnMayusculas(mario)
-imprimirNombreEnMayusculas(fernandez)
+imprimirNombreEnMayusculas(ronald)
 
+imprimirNombreEnMayusculas({nombre: 'Fernandez'})
 // imprimirNombreEnMayusculas({nombre: 'ronald'})
-imprimirNombreEnMayusculas({apellido: 'Serrano'})

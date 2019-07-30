@@ -1,6 +1,6 @@
 var edad = 37
 
-// edad = edad + 2 
+// edad = edad + 1 
 
 edad += 1
 
