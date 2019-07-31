@@ -38,10 +38,20 @@ const esAlta = ({ altura }) => altura > 1.8;
 
 var personas = [mario, alan, martin, dario, vicky, paula];
 
-for (var i = 0; i < personas.length; i++) {
-  var persona = personas[i];
-  console.log(`${persona.nom} mide ${persona.altura}mts`);
-}
+// for (var i = 0; i < personas.length; i++) {
+//   var persona = personas[i];
+//   console.log(`${persona.nombre} mide ${persona.altura}mts`);
+// }
 
-// var personasAltas = personas.filter(esAlta);
-// console.log(personasAltas);
+var personasAltas = personas.filter(esAlta);
+
+const pasarAlturaACms = persona => ({
+  // persona.altura = persona.altura *100
+  // persona.altura *= 100
+  ...persona,
+    altura: persona.altura *100
+  })
+
+var personasCms = personas.map(pasarAlturaACms);
+
+console.log(personasCms);
